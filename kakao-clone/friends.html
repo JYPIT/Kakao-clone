@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+    <head>
+        <link rel="stylesheet" href="css/styles.css">
+        <meta charset="UTF-8">
+        <title>Friends- Kakao Talk</title>
+    </head>
+
+    <body>
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>No Service</span>
+                <!-- Wifi Icon -->
+                <i class="fa-solid fa-wifi"></i>
+            </div>
+            <div class="status-bar__column">
+                <span>08:45</span>
+            </div>
+            <div class="status-bar__column">
+                <span>100%</span>
+                <!-- Battery Icon -->
+                <i class="fa-solid fa-battery-full fa-lg"></i>
+                <!-- Lightning Icon -->
+                <i class="fa-solid fa-bolt-lightning"></i>
+            </div>
+        </div>
+
+        <header class="screen-header">
+            <h1 class="screen-header__title">Friends</h1>
+            <div class="screen-header__icons">
+                <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+                <span><i class="fa-solid fa-music fa-lg"></i></span>
+                <span><a href="settings.html"><i class="fa-solid fa-gear fa-lg"></i></span></a>
+            </div>
+        </header>
+
+        <a id="friends-display-link">
+            <i class="fa-solid fa-circle-info fa-lg"></i>
+            Friends' Names Display
+            <i class="fa-solid fa-chevron-right fa-xs"></i>
+        </a>
+
+        <main class="friends-screen">
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/5/5e/Ron_Weasley_poster.jpg"
+                        class="user-component__avatar user-component__avatar--xl" />
+                    <div class="user-component__text">
+                        <h4 class="user-component__title">Ron Weasley</h4>
+                        <h6 class="user-component__subtitle">퀴디치 할 사람?</h6>
+                    </div>
+                </div>
+                <div class="user-component__column"></div>
+            </div>
+            <div class="friends-screen__channel">
+                <div class="friends-screen__channel-header">
+                    <span>Friends</span>
+                    <i class="fa-solid fa-chevron-up fa-xs"></i>
+                </div>
+                <div class="user-component">
+                    <div class="user-component__column">
+                        <img src="https://static.wikia.nocookie.net/harrypotter/images/8/82/Dobby.jpg"
+                            class="user-component__avatar user-component__avatar--sm" />
+                        <div class="user-component__text">
+                            <h4 class="user-component__title user-component__title--not-bold">Dobby</h4>
+                        </div>
+                    </div>
+                    <div class="user-component__column">
+                        <div>
+                            <!-- <span>2</span>
+                            <i class="fa-solid fa-chevron-right fa-xs"></i> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="user-component">
+                    <div class="user-component__column">
+                        <img src="https://w.namu.la/s/a25ef7e00e5009b7d99416f845b0781cc815a93c6061c5d0d6e07e1dcb8e8c38ff10ae546227a101ab01db22d83e5be987a277728f57b6361d336ab6e174920893424892078d7df2ac68fc772cb38535e030e5763679beed5026fd7a8c532209ca38227a2345b7ec059ddb4093180d9f"
+                            class="user-component__avatar user-component__avatar--sm" />
+                        <div class="user-component__text">
+                            <h4 class="user-component__title user-component__title--not-bold">Harry</h4>
+                        </div>
+                    </div>
+                    <div class="user-component__column">
+                        <div>
+                            <!-- <span>2</span>
+                            <i class="fa-solid fa-chevron-right fa-xs"></i> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="user-component">
+                    <div class="user-component__column">
+                        <img src="https://w.namu.la/s/ea0c0b04eb136a71ea4356829c9dd629b1867956174232f8dc6c58fabb9af4dac97b7a5852b5c1c8ad882f10d1593fdf0f92714d54ea3cca6cf333d64a78fccf492fce25ccca01cd218e44e8cad630cf54c814324e6b8e12c86168aec9148dc2efa8c5d14456ce331205ad6f3225674a"
+                            class="user-component__avatar user-component__avatar--sm" />
+                        <div class="user-component__text">
+                            <h4 class="user-component__title user-component__title--not-bold">Hermione</h4>
+                        </div>
+                    </div>
+                    <div class="user-component__column">
+                        <div>
+                            <!-- <span>2</span>
+                            <i class="fa-solid fa-chevron-right fa-xs"></i> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__btn">
+                    <a class="nav__link" href="friends.html">
+                        <i class="fa-solid fa-user fa-2x"></i></a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__link" href="chats.html">
+                        <span class="nav__notification badge">1</span>
+                        <i class="fa-regular fa-comment fa-2x"></i></a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__link" href="find.html">
+                        <i class="fa-solid fa-magnifying-glass fa-2x"></i></a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__link" href="more.html"><i class="fa-solid fa-ellipsis fa-2x"></i></a>
+                    <span class="nav__dot"></span>
+                </li>
+            </ul>
+        </nav>
+
+        <div id="splash-screen">
+            <i class="fa-solid fa-comment fa-2x"></i>
+        </div>
+        <div id="no-mobile">
+            <span>Your screen is too big:(</span>
+        </div>
+
+        <script src="https://kit.fontawesome.com/a3ea6e8a6b.js" crossorigin="anonymous"></script>
+
+    </body>
+
+</html>
